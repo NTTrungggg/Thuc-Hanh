@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chương trình tính chỉ số BMI"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#FFFF99"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edtchieucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chiều cao (m)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/edtcannang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cân nặng (kg)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính BMI"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/edtBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BMI"
+        android:focusable="false"
+        android:background="#DDDDDD" />
+
+    <EditText
+        android:id="@+id/edtChuanDoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chuẩn đoán"
+        android:focusable="false"
+        android:background="#DDDDDD" />
+</LinearLayout>
