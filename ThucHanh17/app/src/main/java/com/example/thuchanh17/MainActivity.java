@@ -1,4 +1,4 @@
-package com.example.thuchanh17; 
+package com.example.thuchanh17;
 
 import android.annotation.SuppressLint;
 import android.database.Cursor;
